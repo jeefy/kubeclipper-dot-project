@@ -1,0 +1,71 @@
+# .project metadata for KubeClipper
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kubeclipper"
+name: "KubeClipper"
+description: "Manage kubernetes in the most light and convenient way."
+type: "project"
+project_lead: "wu-wenxiang" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#kubeclipper"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2023-06-30T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/153" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubeclipper/kubeclipper"
+
+website: "https://www.kubeclipper.io/"
+
+artwork: "https://landscape.cncf.io/logos/kubeclipper.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/kubeclipper/kubeclipper/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubeclipper/kubeclipper"
+
+
+security:
+  policy:
+    path: "https://github.com/kubeclipper/kubeclipper/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubeclipper/kubeclipper/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubeclipper/kubeclipper/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubeclipper/kubeclipper/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubeclipper/kubeclipper/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubeclipper/kubeclipper/blob/master/README.md"
+
+landscape:
+  category: "Platform"
+  subcategory: "Certified Kubernetes - Installer"
+
+# CLOMonitor Score: 68/100
+# Documentation: 83 | License: 86 | Best Practices: 26 | Security: 36
